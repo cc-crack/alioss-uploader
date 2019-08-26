@@ -1,0 +1,12 @@
+version: "2"
+services:
+  alioss-uploader:
+    image: cj/alioss-uploader
+    build: ./
+    container_name: alioss-uploader
+    hostname: alioss-uploader
+    ports:
+      - 9002:9002
+    volumes:
+      - ./config.json:/etc/alioss-uploader/config.json
+    restart: unless-stopped

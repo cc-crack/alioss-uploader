@@ -1,0 +1,14 @@
+{
+    "ServerIP": "",
+	"ServerName": "demo",
+	"ServerPort": 9002,
+	"PostPath"  : "/upload",
+    "GetPath" : "list",
+    
+    "EndPoint": "your-endpoint-address",
+    "EndPointInternal": "your-endpoint-address-internal",
+    "AccessKey": "your access key",
+    "AccessKeySecret": "your access key secret",
+    "BucketName": "your bucket name",
+    "UseInternalEndPoint": true
+}
