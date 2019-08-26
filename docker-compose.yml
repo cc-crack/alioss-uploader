@@ -1,7 +1,7 @@
 version: "2"
 services:
   alioss-uploader:
-    image: cj/alioss-uploader
+    image: pk8995/alioss-uploader
     build: ./
     container_name: alioss-uploader
     hostname: alioss-uploader
