@@ -16,7 +16,7 @@ alioss-uploader可以让你的alisso变成mweb兼容的图床
    4. Response URL Path: Url
 
 ## Config
-    UseInternalEndPoint 为true是将使用internal endpoint 地址上传，如果是在本机使用请设置为false
+    UseInternalEndPoint 为true将使用internal endpoint地址上传，如果是在本机使用请设置为false
    
 
 ## 免责声明
