@@ -14,6 +14,9 @@ alioss-uploader可以让你的alisso变成mweb兼容的图床
    2. API URL: http://127.0.0.1:9002/upload (此处需与config中PostPath)
    3. POST File Name: file
    4. Response URL Path: Url
+
+## Config
+    UseInternalEndPoint 为true是将使用internal endpoint 地址上传，如果是在本机使用请设置为false
    
 
 ## 免责声明
